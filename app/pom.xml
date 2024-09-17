@@ -16,7 +16,15 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>com.afrocodemy</groupId>
+            <artifactId>api</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+    </dependencies>
     <build>
+        <finalName>springboot-demo</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
